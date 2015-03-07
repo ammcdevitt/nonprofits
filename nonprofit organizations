@@ -1,18 +1,11 @@
-#reads data from my local mysql database using python
-#install mysql connector, update security/privacy settings to allow it to download
-
 import mysql.connector
-#imports the module
-#/Library/Python/2.7/site-packages
 
 conn = mysql.connector.connect(user='root', database='test')
 
 cursor = conn.cursor(buffered=True)
-#creating a cursor, which creates an efficient way to get data from database
 
 query = ('SELECT * FROM tbl_nonprofits')
-#capitalization of sql commandshelps them to stand out
-# * means all data
+
 cursor.execute(query)
 
 for result in cursor:
