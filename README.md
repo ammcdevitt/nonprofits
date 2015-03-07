@@ -1,6 +1,6 @@
 <p>
 The above line creates a new table by defining it, listing the column names (including their data type and max length)
-At this point, the are no rows (data) assigned to the columns
+<br/> At this point, the are no rows (data) assigned to the columns
 </p>
 
 ```
