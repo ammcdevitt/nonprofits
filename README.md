@@ -21,7 +21,7 @@ Note: * means all data
 ## Shell
 If you would rather use the Python shell, please use the following commands.
 
-### <p> The line below creates a new table by defining it, listing the column names (including their data type and max length). At this point, the are no rows (data) assigned to the columns. </p>
+<p> The line below creates a new table by defining it, listing the column names (including their data type and max length). At this point, the are no rows (data) assigned to the columns. </p>
 
 ```create table tbl_nonprofits (Id int, org_name varchar(100), address varchar(100), exec_dir varchar(30));```
 
