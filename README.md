@@ -1,6 +1,27 @@
-If you would rather use the Python shell, use the following commands:
+# How to create relational databases in MySQL
+Sample that is used here is joining a list of executive directors to an existing list of nonprofits
 
-<p> The line below creates a new table by defining it, listing the column names (including their data type and max length). At this point, the are no rows (data) assigned to the columns. </p>
+## Python
+This reads data from a local mysql database using Python. Be sure that you have installed mysql connector and update security/privacy settings (as needed) to allow it to download.
+
+```import mysql.connector```
+
+```conn = mysql.connector.connect(user='root', database='test')```
+
+```cursor = conn.cursor(buffered=True)```
+
+```query = ('SELECT * FROM tbl_nonprofits')```
+Note: * means all data
+
+```cursor.execute(query)```
+
+```for result in cursor:```
+	```print result```
+
+## Shell
+If you would rather use the Python shell, please use the following commands.
+
+### <p> The line below creates a new table by defining it, listing the column names (including their data type and max length). At this point, the are no rows (data) assigned to the columns. </p>
 
 ```create table tbl_nonprofits (Id int, org_name varchar(100), address varchar(100), exec_dir varchar(30));```
 
