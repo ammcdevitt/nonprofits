@@ -1,7 +1,7 @@
 # How to create relational databases in MySQL
 Sample that is used here is joining a list of executive directors to an existing list of nonprofits
 
-## Python to Run a Query in MySQL
+## Using Python to Run a Query in MySQL
 This reads data from a local mysql database using Python. Be sure that you have installed mysql connector and update security/privacy settings (as needed) to allow it to download.
 
 ```import mysql.connector```
