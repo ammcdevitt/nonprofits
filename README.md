@@ -13,10 +13,11 @@ This reads data from a local mysql database using Python. Be sure that you have 
 ```query = ('SELECT * FROM tbl_nonprofits')```
 Note: * means all data
 
-```cursor.execute(query)```
-
-``for result in cursor:```
-	````print result```
+```
+cursor.execute(query)
+for result in cursor:
+print result
+```
 
 ## Shell
 If you would rather use the Python shell, please use the following commands.
