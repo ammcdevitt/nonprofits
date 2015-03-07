@@ -15,8 +15,8 @@ Note: * means all data
 
 ```cursor.execute(query)```
 
-```for result in cursor:```
-	```print result```
+``for result in cursor:```
+	````print result```
 
 ## Shell
 If you would rather use the Python shell, please use the following commands.
