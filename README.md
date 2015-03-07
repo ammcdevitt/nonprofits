@@ -1,4 +1,4 @@
-If you would rather use the Python shell, you are able to use the following instead:
+If you would rather use the Python shell, use the following commands:
 
 <p> The line below creates a new table by defining it, listing the column names (including their data type and max length). At this point, the are no rows (data) assigned to the columns. </p>
 
