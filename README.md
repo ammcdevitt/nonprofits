@@ -2,16 +2,14 @@ If you would rather use the Python shell, you are able to use the following inst
 
 <p> The line below creates a new table by defining it, listing the column names (including their data type and max length). At this point, the are no rows (data) assigned to the columns. </p>
 
-```
-create table tbl_nonprofits (Id int, org_name varchar(100), address varchar(100), exec_dir varchar(30));
-```
+```create table tbl_nonprofits (Id int, org_name varchar(100), address varchar(100), exec_dir varchar(30));```
 
 <p> Now we define each exective directors & stores each as an int value </p>
 
 ```create table tbl_exec_dir (id int, first_name varchar(30), last_name varchar(50));```
 
 <p> Altering Tables: Creating Primary Keys </p>
-```alter table tbl_nonprofits add primary key (ID);``
+```alter table tbl_nonprofits add primary key (ID);```
 ```alter table tbl_exec_dir add primary key (ID);```
 
 <p> Altering Tables: Changing Data Type </p>
